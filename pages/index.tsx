@@ -1,16 +1,18 @@
 import Link from 'next/link';
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar';
+import Head from 'next/head';
 
 
 export default function Home() {
   return (
     <>
-        <head>
+        <Head>
                     <title>Home | Thaish</title>
-                    <meta name="keywords" content="bolg, thaish, home, thaishwave" />
-        </head>
-      <main className='z-10 bg-gray-50' >
+                    <meta name="keywords" content="blog, thaish, thaishwave" />
+        </Head>
+
+      <div className='z-10 bg-gray-50' >
 
         <h1 className='font-semibold text-2xl lg:text-3xl my-4' >HomePage</h1>
 
@@ -24,7 +26,7 @@ export default function Home() {
           </Link>
         </div>
 
-      </main>
+      </div>
     </>
   )
 }

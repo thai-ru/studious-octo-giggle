@@ -1,11 +1,14 @@
+import Head from "next/head";
+
 const About = () => {
     return ( 
 
         <>
-            <head>
-                <title>Home | Thaish</title>
-                <meta name="keywords" content="bolg, thaish, home, thaishwave" />
-            </head>
+            <Head>
+                <title>About | Thaish</title>
+                <meta name="keywords" content="blog, thaish, thaishwave" />
+            </Head>
+
             <div>
                 <h1 className='mb-4 text-2xl font-bold'  >
                 About Page
